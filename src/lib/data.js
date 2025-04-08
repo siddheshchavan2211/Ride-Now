@@ -1,0 +1,46 @@
+export const featuredCars = [
+  {
+    id: "1",
+    name: "Mercedes-Benz G-Class",
+    price: 150000,
+    year: 2020,
+    transmission: "Automatic",
+    fuel: "Diesel",
+    type: "SUV",
+    mileage: 0,
+    color: "Gray",
+    image: "/placeholder.svg?height=300&width=500",
+  },
+  {
+    id: "2",
+    name: "BMW M8 Coupe",
+    price: 150000,
+    year: 2023,
+    transmission: "Automatic",
+    fuel: "Diesel",
+    type: "Coupe",
+    mileage: 0,
+    color: "Red",
+    image: "/placeholder.svg?height=300&width=500",
+  },
+  {
+    id: "3",
+    name: "Ferrari SF90 Stradale",
+    price: 500000,
+    year: 2023,
+    transmission: "Automatic",
+    fuel: "Diesel",
+    type: "Coupe",
+    mileage: 0,
+    color: "Red",
+    image: "/placeholder.svg?height=300&width=500",
+  },
+];
+
+export const bodyTypes = [
+  { id: 1, name: "SUV", image: "/body/suv.webp" },
+  { id: 2, name: "Sedan", image: "/body/sedan.webp" },
+  { id: 3, name: "Hatchback", image: "/body/hatchback.webp" },
+  { id: 4, name: "Convertible", image: "/body/convertible.webp" },
+  { id: 5, name: "demo", image: "/body/convertible.webp" },
+];
