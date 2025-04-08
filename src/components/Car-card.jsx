@@ -43,7 +43,7 @@ export default function CarCard({ car }) {
         <div className="space-y-2">
           <h3 className="font-semibold text-xl">{car.name}</h3>
           <p className="text-2xl font-bold text-emerald-600">
-            ${car.price.toLocaleString()}
+            ₹{car.price.toLocaleString("en-IN")}
           </p>
 
           <div className="grid grid-cols-2 gap-2 pt-2">

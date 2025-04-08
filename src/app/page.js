@@ -5,7 +5,6 @@ import { featuredCars, bodyTypes } from "../lib/data";
 import { BookOpen, ChevronRight, Share2, Shield, Users } from "lucide-react";
 import Link from "next/link";
 import CarCard from "@/components/Car-card";
-import { Input } from "@/components/ui/input";
 import SearchCar from "@/components/SearchCar";
 
 export default function Home() {
